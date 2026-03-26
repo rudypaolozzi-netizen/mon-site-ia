@@ -197,6 +197,15 @@ header {
     border: 2px solid #ffff00;
 }
 
+.card-badge.bonus {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: white;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    padding: 0.3rem 1rem;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+}
+
 .card-content {
     padding: 2rem;
     display: flex;

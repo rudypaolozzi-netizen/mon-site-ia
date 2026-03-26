@@ -157,6 +157,17 @@ const tools = [
     shortDescription: "recherche de slides comportant un mot clé ",
     longDescription: `Recherche de slides par mot clé sur le serveur : « Reco » avec prévisualisation du contexte et lien, numéro de la slide et lien vers le fichier powerpoint.`,
     isUnderConstruction: true
+  },
+  {
+    id: "formation-tonalite-ia",
+    title: "FORMATION TONALITÉ IA",
+    subtitle: "(en ligne)",
+    type: "Formation",
+    image: "assets/images/formation_tonalite_ia.png",
+    url: "https://tonalite-ia.netlify.app",
+    shortDescription: "C'est un module de formation en ligne pour maîtriser la tonalité, le style que doit utiliser l'IA pour la rédaction, accompagnée de son pdf (lien en description).",
+    longDescription: `C'est une formation prévue pour 1h avec un formateur et une dizaine de personnes, seul 30 mins devrait suffire. Vous pourrez conserver l'essentiel du module sur le pdf : <a href="https://netmediaeu-my.sharepoint.com/:b:/g/personal/rpaolozzi_netmedia_group/IQBRoAjQ5x8rQqrFbjzbMuOtAQYfSGVwCDkm_hvEzyKSx2A?e=83UR15" target="_blank" rel="noopener noreferrer">📄 Télécharger le PDF de la formation</a>`,
+    isBonus: true
   }
 ];
 

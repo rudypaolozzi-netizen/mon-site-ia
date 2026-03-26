@@ -13,9 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderTools() {
         grid.innerHTML = tools.map((tool, index) => {
             const isConstruction = tool.isUnderConstruction || false;
-            const badgeHtml = isConstruction 
-                ? `<div class="card-badge construction">Under Construction</div>` 
-                : (index === 1 ? `<div class="card-badge">Populaire</div>` : '');
+            const isBonus = tool.isBonus || false;
+            let badgeHtml = '';
+            if (isConstruction) {
+                badgeHtml = `<div class="card-badge construction">Under Construction</div>`;
+            } else if (isBonus) {
+                badgeHtml = `<div class="card-badge bonus">B O N U S</div>`;
+            } else if (index === 1) {
+                badgeHtml = `<div class="card-badge">Populaire</div>`;
+            }
 
             const buttonContent = tool.needsChatGPTLogin
             ? `<span class="btn-prefix">Connectez-vous d'abord à votre ChatGPT,</span><span class="btn-main">Utiliser l'outil <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></span>`
