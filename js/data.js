@@ -77,10 +77,11 @@ const tools = [
     title: "SCRAPPER LINKEDIN",
     subtitle: "(en ligne)",
     type: "App Web",
-    image: "assets/images/Scrapper_linkedin.png",
+    image: "assets/images/Srapper_Hunter.png",
     url: "https://poc-scrapper.vercel.app/",
-    shortDescription: "Recherchez par secteur et fonction, et exportez un CSV prêt à l'emploi : entreprise, nom, poste, URL LinkedIn…",
-    longDescription: `Permet de rechercher sur linkedin, par secteur d'activité et fonction. Sortie un CSV avec : Entreprise, Site Web, Nom, Prénom, Poste, URL LinkedIn`
+    shortDescription: "Recherchez par secteur et fonction, et exportez un CSV prêt à l'emploi : entreprise, nom, poste, URL LinkedIn et tentative de tel Pro et email Pro…",
+    longDescription: `Permet de rechercher sur linkedin, par secteur d'activité et fonction.
+Sortie un CSV avec : Entreprise, Site Web, Domaine, Nom,  Prenom,  Poste, Email Pro, Statut Email, Score Email, Telephone Pro, Type Telephone, Source Telephone, Credits Utilises, 	URL LinkedIn`
   },
   {
     id: "ai-marketing-audit-seo",
