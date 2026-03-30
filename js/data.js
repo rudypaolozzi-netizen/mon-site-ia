@@ -78,7 +78,7 @@ const tools = [
     subtitle: "(en ligne)",
     type: "App Web",
     image: "assets/images/Srapper_Hunter.png",
-    url: "https://poc-scrapper.vercel.app/",
+    url: "https://scrapper-hunter.vercel.app/",
     shortDescription: "Recherchez par secteur et fonction, et exportez un CSV prêt à l'emploi : entreprise, nom, poste, URL LinkedIn et tentative de tel Pro et email Pro…",
     longDescription: `Permet de rechercher sur linkedin, par secteur d'activité et fonction.
 Sortie un CSV avec : Entreprise, Site Web, Domaine, Nom,  Prenom,  Poste, Email Pro, Statut Email, Score Email, Telephone Pro, Type Telephone, Source Telephone, Credits Utilises, 	URL LinkedIn`
