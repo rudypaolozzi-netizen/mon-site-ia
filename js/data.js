@@ -153,10 +153,20 @@ Sortie un CSV avec : Entreprise, Site Web, Domaine, Nom,  Prenom,  Poste, Email 
     title: "CHERCHEUR DE SLIDE .PPTX",
     subtitle: "(en ligne)",
     type: "App Web",
-    image: "assets/images/Chercheur de slides.png",
+    image: "assets/images/chercheur_slides.png",
     url: "https://powerpoint-thema-search.vercel.app/",
     shortDescription: "recherche de slides comportant un mot clé, sur le serveur Sequoia uniquement.",
     longDescription: `Recherche de slides par mot clé sur le serveur : « Reco » avec prévisualisation du contexte et lien, numéro de la slide et lien vers le fichier powerpoint. Sur le serveur Sequoia uniquement.`
+  },
+  {
+    id: "extracteur-urls-images",
+    title: "Extracteur d'URLs d'images depuis une page web",
+    subtitle: "(en ligne)",
+    type: "App Web",
+    image: "assets/images/Extracteur_Images_.png",
+    url: "https://image-url-extractor2.vercel.app/",
+    shortDescription: "Récupérer les images d’une page web en une fois.",
+    longDescription: `Entrer la page web cible, et si c’est possible, l’outils vous proposera le téléchargement de toutes les images de la pages. Attention pour rester dans le cadre d’un outils gratuit, les téléchargements (.zip) ne doit pas dépasser 4,4 Mo, mais vous avez la possibilité de télécharger les images en plusieurs fois. Attention cette app simplifie le process, mais ne vous donne pas les droit d’exploitation des images téléchargées.`
   },
   {
     id: "formation-tonalite-ia",
