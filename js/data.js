@@ -153,7 +153,7 @@ Sortie un CSV avec : Entreprise, Site Web, Domaine, Nom,  Prenom,  Poste, Email 
     title: "CHERCHEUR DE SLIDE .PPTX",
     subtitle: "(en ligne)",
     type: "App Web",
-    image: "assets/images/chercheur_slides.png",
+    image: "assets/images/Chercheur de slides2.png",
     url: "https://powerpoint-thema-search.vercel.app/",
     shortDescription: "recherche de slides comportant un mot clé, sur le serveur Sequoia uniquement.",
     longDescription: `Recherche de slides par mot clé sur le serveur : « Reco » avec prévisualisation du contexte et lien, numéro de la slide et lien vers le fichier powerpoint. Sur le serveur Sequoia uniquement.`
